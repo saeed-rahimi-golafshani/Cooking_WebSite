@@ -1,0 +1,34 @@
+{
+  recipe{
+    _id
+    title
+    short_text
+    text
+    recipe_number
+    tags
+    source
+    images
+    comments{
+      _id
+      user
+      comment
+      show
+      opentocomment
+      createdAt
+      answers
+    }
+    category{
+      _id
+      title
+    }
+    Region_food{
+      _id
+      title
+    }
+    author{
+      _id
+      firstname
+      lastname
+    }
+  }
+}
